@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Playlist Favorita</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">♫ Mi Playlist</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#artistas">Artistas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#canciones">Canciones favoritas</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="portada text-center" id="inicio">
+    <div class="container">
+        <p class="subtitulo">MI MÚSICA, MI ESTILO</p>
+        <h1>Mis artistas <span>favoritos</span></h1>
+        <p>Cuatro artistas que forman parte de mi playlist.</p>
+        <a href="#artistas" class="btn btn-morado">Conocer artistas</a>
+    </div>
+</header>
+
+<section class="container seccion" id="artistas">
+    <div class="text-center">
+        <p class="subtitulo">CONOCE MI PLAYLIST</p>
+        <h2>Mis artistas favoritos</h2>
+        <p>Conoce un poco de cada uno.</p>
+    </div>
+
+    <div class="row g-4 mt-3">
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card tarjeta h-100">
+                <img src="https://placehold.co/600x400/38204f/ffffff?text=MORA" class="card-img-top" alt="Mora">
+                <div class="card-body">
+                    <h5 class="card-title">Mora</h5>
+                    <p class="card-text">Cantante y compositor de música urbana y reguetón.</p>
+                    <a href="mora.html" class="btn btn-morado">Ver página</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card tarjeta h-100">
+                <img src="https://placehold.co/600x400/17483e/ffffff?text=RELS+B" class="card-img-top" alt="Rels B">
+                <div class="card-body">
+                    <h5 class="card-title">Rels B</h5>
+                    <p class="card-text">Artista español de rap, R&B y música urbana.</p>
+                    <a href="relsb.html" class="btn btn-morado">Ver página</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card tarjeta h-100">
+                <img src="https://placehold.co/600x400/612b35/ffffff?text=MYKE+TOWERS" class="card-img-top" alt="Myke Towers">
+                <div class="card-body">
+                    <h5 class="card-title">Myke Towers</h5>
+                    <p class="card-text">Rapero y cantante de reguetón y trap latino.</p>
+                    <a href="myke.html" class="btn btn-morado">Ver página</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3">
+            <div class="card tarjeta h-100">
+                <img src="https://placehold.co/600x400/263b60/ffffff?text=ANUEL+AA" class="card-img-top" alt="Anuel AA">
+                <div class="card-body">
+                    <h5 class="card-title">Anuel AA</h5>
+                    <p class="card-text">Cantante conocido por el trap latino y el reguetón.</p>
+                    <a href="anuel.html" class="btn btn-morado">Ver página</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="seccion canciones" id="canciones">
+    <div class="container text-center">
+        <p class="subtitulo">DALE PLAY</p>
+        <h2>Canciones favoritas</h2>
+        <p>Escoge un artista para ver su lista de canciones.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+            <a href="mora.html" class="btn btn-morado">Mora</a>
+            <a href="relsb.html" class="btn btn-morado">Rels B</a>
+            <a href="myke.html" class="btn btn-morado">Myke Towers</a>
+            <a href="anuel.html" class="btn btn-morado">Anuel AA</a>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <p>♫ Mi Playlist Favorita</p>
+    <a href="contacto.html">Ir a contacto</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

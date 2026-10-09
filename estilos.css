@@ -1,0 +1,244 @@
+
+/* CONFIGURACIÓN GENERAL */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    background-color: #100d18;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar {
+    background-color: #1b1427;
+    border-bottom: 1px solid #44315f;
+}
+
+.navbar-brand {
+    color: #c4a1ff !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #c4a1ff !important;
+}
+
+/* PORTADA */
+.portada {
+    padding: 110px 20px 85px;
+    background: linear-gradient(135deg, #38204f, #100d18, #32162f);
+}
+
+.portada h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: bold;
+}
+
+.portada h1 span {
+    color: #c4a1ff;
+}
+
+.portada p {
+    color: #ded5eb;
+}
+
+.subtitulo {
+    color: #c4a1ff !important;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* SECCIONES */
+.seccion {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.seccion h2 {
+    font-weight: bold;
+}
+
+.seccion > p {
+    color: #d0c7dc;
+}
+
+/* BOTONES */
+.btn-morado {
+    background-color: #a879f5;
+    border: 1px solid #a879f5;
+    color: #160d22;
+    font-weight: bold;
+}
+
+.btn-morado:hover {
+    background-color: #c4a1ff;
+    border-color: #c4a1ff;
+    color: #160d22;
+}
+
+/* TARJETAS */
+.tarjeta {
+    background-color: #20192d;
+    color: white;
+    border: 1px solid #423254;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-6px);
+}
+
+.tarjeta img {
+    height: 190px;
+    object-fit: cover;
+}
+
+.tarjeta .card-title {
+    color: #c4a1ff;
+    font-weight: bold;
+}
+
+.tarjeta .card-text {
+    color: #d0c7dc;
+}
+
+/* CANCIONES */
+.canciones {
+    background-color: #191323;
+    border-top: 1px solid #382747;
+    border-bottom: 1px solid #382747;
+}
+
+.lista-musica {
+    padding: 0;
+    list-style: none;
+}
+
+.lista-musica li {
+    background-color: #20192d;
+    border: 1px solid #44354f;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.lista-musica li::before {
+    content: "♫ ";
+    color: #c4a1ff;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+.formulario {
+    max-width: 650px;
+    background-color: #20192d;
+    border: 1px solid #44354f;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.form-control,
+.form-select {
+    background-color: #100d18;
+    color: white;
+    border-color: #59446e;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #100d18;
+    color: white;
+    border-color: #c4a1ff;
+    box-shadow: 0 0 0 0.2rem #a879f544;
+}
+
+.form-control::placeholder {
+    color: #aaa0b8;
+}
+
+.form-select option {
+    background-color: #20192d;
+    color: white;
+}
+
+#respuesta {
+    color: #c4a1ff;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #09070d;
+    border-top: 1px solid #382747;
+    padding: 30px 15px;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #c4a1ff;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 576px) {
+    .portada {
+        padding-top: 90px;
+    }
+
+    .seccion {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .formulario {
+        padding: 20px;
+    }
+
+    
+/* Página Sobre mí */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #a879f5;
+    margin-bottom: 15px;
+}
+
+.texto-presentacion {
+    color: #d0c7dc;
+}
+
+.dato-personal {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 5px;
+    border-bottom: 1px solid #44354f;
+}
+
+.dato-personal > span {
+    font-size: 25px;
+}
+
+.dato-personal strong {
+    color: #c4a1ff;
+}
+
+.dato-personal p {
+    color: #e0d9e9;
+    margin: 5px 0 0;
+}
+}
